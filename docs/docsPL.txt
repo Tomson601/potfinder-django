@@ -1,0 +1,16 @@
+1. Userzy, z odpowiednimi uprawnieniami.
+
+1.1 User:
+    username, password, dob (date of birth), points, , veryfication count, spotted_holes, is_veryfied.
+1,2 Hole:
+    owner, pinezka, veryfication_count, date of spotted.
+
+
+
+2. Endpointy: 
+    addPothole --> Dodawanie miejsca z dziurą. User, weryfikacje, pinezka
+
+
+
+3. Flow:
+    jeżeli user jest zweryfikowany, to może dodawać potholesy.
